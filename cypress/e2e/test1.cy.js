@@ -7,7 +7,6 @@ describe('Verify time difference between the first and last message in a thread'
     cy.loginToApplication()
     /* Please disconnect any device if it is asked by webapp and then continue the run from Calls tab!
     If window with disconnect is not appear please continue test run. */
-
   })
 
   it('Calculate time difference between the first and last message in a thread', () => {
